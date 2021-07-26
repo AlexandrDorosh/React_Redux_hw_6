@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07d7a7d-869d-4789-aadb-1217951177a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/react_redux_hw_6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/createTodoForm/CreateTodoForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todos/Todos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actionCreators/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actionTypes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/todos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/simple-json-api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/createTodoForm/CreateTodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/createTodoForm/CreateTodoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todos/Todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todos/Todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actionCreators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actionCreators/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actionTypes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actionTypes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/simple-json-api" beforeDir="false" afterPath="$PROJECT_DIR$/test/simple-json-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/simple-json-api/todos.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/simple-json-api/todos.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +64,7 @@
       <workItem from="1627040458067" duration="671000" />
       <workItem from="1627127187486" duration="599000" />
       <workItem from="1627199919895" duration="4960000" />
+      <workItem from="1627303708577" duration="1642000" />
     </task>
     <servers />
   </component>

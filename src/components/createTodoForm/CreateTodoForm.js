@@ -1,10 +1,15 @@
 import {useState} from "react";
+import {pushTodo} from "../../redux/actionCreators";
+import {useDispatch} from "react-redux";
 
 
-export default function CreateTodoForm({ onSubmit }){
+export default function CreateTodoForm(){
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [isLoading, setIsLoading] = useState(false);
+
+    const dispatch = useDispatch();
+    
     const handleSubmit = async (e) => {
         // e.preventDefault();
 
@@ -12,7 +17,7 @@ export default function CreateTodoForm({ onSubmit }){
 
         try {
             setIsLoading(true)
-            await onSubmit(title, description);
+            await onTodoCreate(title, description);
             setTitle('')
             setDescription('')
         } catch (e) {
@@ -20,6 +25,23 @@ export default function CreateTodoForm({ onSubmit }){
         } finally {
             setIsLoading(false)
         }
+    }
+
+    const onTodoCreate = async (title, description) => {
+        if(!title || !description) return;
+
+        console.log(JSON.stringify({title, description}))
+
+        const resp = await fetch('http://localhost:8888/create-todo', {
+            method: 'POST',
+            body: JSON.stringify({title, description}),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        const data = await resp.json();
+
+        dispatch(pushTodo(data))
     }
 
     return (
